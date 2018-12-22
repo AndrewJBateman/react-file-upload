@@ -26,6 +26,7 @@ app.use(cookieParser())
 app.use(fileUpload())
 app.use('/public', express.static(__dirname + '/public'))
 
+//after a POST request at /upload the file is given a filname and copied to /public/files/fileName.ext and will be accessible at req.files.file. mv = move
 app.post('/upload', (req, res, next) => {
   let uploadFile = req.files.file
   const fileName = req.files.file.name
