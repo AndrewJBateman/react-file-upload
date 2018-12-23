@@ -5,7 +5,7 @@ Use for testing front end app.
 
 ##Notes
 
-App generates error messages.
+App generates error messages - needs front end.
 
-Link to FreeCodeCamp Medium article: [How to set up file upload with React and Node' by Krissanawat​ Kaewsanmuang](https://medium.freecodecamp.org/how-to-create-file-upload-with-react-and-node-2aa3f9aab3f0)
+Link to Medium article by Antonio Erdeljac: [File upload with Node & React](https://levelup.gitconnected.com/file-upload-with-node-js-react-js-686e342ad7e7)
 
