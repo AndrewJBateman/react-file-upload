@@ -29,7 +29,7 @@ React frontend image upload with express backend server.js to handle file upload
 
 ## Screenshots
 
-![Example screenshot](./img/screen-shot.jpg).
+![Example screenshot](./img/screen-shot.png).
 
 ## Technologies
 
@@ -41,9 +41,9 @@ React frontend image upload with express backend server.js to handle file upload
 
 * [React v16.10.2](https://reactjs.org/) Frontend javascript library.
 
-* [Bootstrap front-end compoent library](https://getbootstrap.com/)
+* [Bootstrap front-end component library](https://getbootstrap.com/)
 
-* [Bootstrap icons](https://fontawesome.com/)
+* [Font Awesome icons](https://fontawesome.com/)
 
 * [React Hooks](https://reactjs.org/docs/hooks-overview.html#state-hook)
 
@@ -55,7 +55,7 @@ React frontend image upload with express backend server.js to handle file upload
 
 ## Code Examples
 
-* Progress component try-catch to show percentage progress or error message.
+* FileUpload component try-catch to show percentage progress or error message.
 
 ```javascript
     try {
@@ -74,7 +74,7 @@ React frontend image upload with express backend server.js to handle file upload
       setMessage('File uploaded');
     } catch(err) {
       if(err.response.status === 500) {
-        setMessage('There was a problem witht he server');
+        setMessage('There was a problem with the server');
       } else {
         setMessage(err.response.data.msg);
       }
