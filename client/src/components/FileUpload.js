@@ -27,18 +27,12 @@ const FileUpload = () => {
         },
         onUploadProgress: progressEvent => {
           setUploadPercentage(parseInt(Math.round((progressEvent.loaded * 100) / progressEvent.total)));
-          // clear %
           setTimeout(() => setUploadPercentage(0), 10000);
         }
-
-
-
       });
 
       const { fileName, filePath } = res.data;
-
       setUploadedFile({ fileName, filePath });
-
       setMessage('File uploaded');
     } catch(err) {
       if(err.response.status === 500) {
