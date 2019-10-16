@@ -1,0 +1,33 @@
+{
+  "name": "react-file-upload",
+  "version": "1.0.0",
+  "description": "React full stack image upload",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewJBateman/react-file-upload.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "ABateman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewJBateman/react-file-upload/issues"
+  },
+  "homepage": "https://github.com/AndrewJBateman/react-file-upload#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6-alpha.5"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^1.19.4"
+  }
+}
