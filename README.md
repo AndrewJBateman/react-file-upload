@@ -17,7 +17,6 @@
   * [Screenshots](#screenshots)
   * [Technologies](#technologies)
   * [Fullstack Dev Setup](#fullstack-dev-setup)
-    * [`npm run dev`](#npm-run-dev)
   * [Code Examples](#code-examples)
   * [Status & To-Do List](#status--to-do-list)
   * [Inspiration](#inspiration)
@@ -26,7 +25,7 @@
 
 ## General info
 
-* Uploads an image file from the React frontend. This file is fetched by the backend using express.js and stored in  'uploads' in the public folder.
+* Uploads an image file from the React frontend. This file is fetched by the backend using express.js and stored in 'uploads' in the public folder.
 * The frontend uses a FileUpload component with a [FormData object](https://developer.mozilla.org/en-US/docs/Web/API/FormData/FormData) with inputs for the file itself and a file name. The image will be displayed on the frontend.
 * Includes a % upload complete progress-bar component.
 * Includes a dismissable status message component.
@@ -48,9 +47,7 @@
 
 ## Fullstack Dev Setup
 
-### `npm run dev`
-
-* Runs the front and backend simultaneously in development mode. It will open [http://localhost:3000](http://localhost:3000) to view in browser. Any code changes will automatically reload the browser.
+* `npm run dev` runs the front and backend simultaneously in development mode. It will open [http://localhost:3000](http://localhost:3000) to view in browser. Any code changes will automatically reload the browser.
 
 ## Code Examples
 
@@ -82,8 +79,8 @@
 
 ## Status & To-Do List
 
-* Status: Working. Updated june 2021.
-* To do: Add functionality.
+* Status: Working.
+* To do: Nothing
 
 ## Inspiration
 
